@@ -1,0 +1,69 @@
+body {
+	height: 100%;
+  min-height: 100%;
+}
+.app {
+  background-color: #34495e;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  -webkit-background-size: cover;
+     -moz-background-size: cover;
+     -o-background-size: cover;
+      background-size: cover;
+  padding: 0;
+}
+.block-img {
+  padding: 0;
+}
+
+.layer {
+    background-color: rgba(0,0,0, 0.5);
+    background-repeat: repeat;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 0;
+}
+.app .login-page {
+  margin-top: 50px;
+}
+.login-page {
+	width: 100%;
+    position: relative;
+}
+.login-panel {
+	background: #fff;
+    max-width: 420px;
+    margin: 0 auto;
+    padding: 30px;
+    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.14);
+}
+.login-panel-heading {
+	text-align: left;	
+	margin-bottom: 30px;
+}
+.login-panel-heading h3 a {
+    color: #333;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+.login-panel-heading h3 a:hover,
+.login-panel-heading h3 a:focus {
+	text-decoration: none;
+}
+.login-field {
+	padding: 45px;
+}
+.btn-lg {
+	padding: 15px;
+	font-size: 15px;
+}
+.forgot {
+	margin-top: 30px;
+	text-align: center;
+}
